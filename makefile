@@ -8,6 +8,8 @@ README.md:guessinggame.sh
 	echo "The guessinggame.sh file contains the following number of lines:" >> README.md
 	echo "<br>" >> README.md
 	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
+	echo "<br>"
 	echo "That is all for now" >> README.md
+	echo "<br>"
 clean:
 	rm README.md
